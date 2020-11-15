@@ -227,7 +227,7 @@ footer .container .row {
   background-color: #272525;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   body {
     font-size: 8px;
   }
