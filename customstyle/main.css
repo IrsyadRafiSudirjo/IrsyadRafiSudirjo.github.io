@@ -1,0 +1,282 @@
+body {
+  background-color: #201f1f;
+  font-family: "roboto", sans-serif;
+}
+
+.nav img {
+  max-width: 30px;
+  max-height: 30px;
+  object-fit: cover;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+  color: #e5e5e5;
+  font-size: 24px;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.introduction {
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/Mountain.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.about-me h1 {
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.about-me p {
+  text-align: center;
+
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.experience {
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.experience p {
+  text-align: center;
+
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.about-me p {
+  text-align: center;
+
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.about-me p strong {
+  text-align: center;
+
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.introduction h1 {
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.introduction h1 strong {
+  color: #ffffff;
+}
+
+.introduction p {
+  text-align: center;
+
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.project-intro h1 {
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.project-intro .container .row .col-6 {
+  color: #ffffff;
+}
+
+.project-intro .btn-primary {
+  background-color: #fca311;
+  border: 0;
+}
+
+.project-intro .btn-primary:hover {
+  background-color: #db9017;
+  border: 0;
+}
+
+.work {
+  background-color: #272525;
+  margin: auto;
+  width: 75%;
+}
+
+.work .container .row {
+  color: #ffffff;
+}
+
+.work .btn-primary {
+  background-color: #fca311;
+  border: 0;
+}
+
+.work .btn-primary:hover {
+  background-color: #db9017;
+  border: 0;
+}
+footer {
+  background-color: #141414 !important;
+}
+
+footer .container h5 {
+  text-align: center;
+  color: #ffffff;
+}
+
+footer .container .row {
+  background-color: #141414;
+  text-align: center;
+  color: #ffffff;
+}
+
+.doneproject h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.btn-primary {
+  background-color: #fca311;
+  border: 0;
+}
+
+.btn-primary:hover {
+  background-color: #db9017;
+  border: 0;
+}
+
+.doneproject h1 {
+  color: #ffffff;
+}
+.doneproject h2 {
+  color: #ffffff;
+}
+.doneproject p {
+  color: #ffffff;
+}
+
+.Securohead {
+  color: #ffffff;
+}
+
+.Securohead h1 {
+  text-align: center;
+}
+.Securohead h2 {
+  text-align: center;
+}
+
+.Securohead .row .col-12 img {
+  max-width: 1000px;
+}
+
+.Securohead .row .col-12 .image img {
+  max-width: 500px;
+  margin-left: 300px;
+}
+
+.Securohead .row .col-6 .image img {
+  max-width: 500px;
+}
+
+.university {
+  color: #ffffff;
+}
+
+.university h1 {
+  text-align: center;
+}
+
+.university .cashier img {
+  width: 100%;
+}
+
+.portofolioweb {
+  color: #ffffff;
+}
+.portofolioweb h1 {
+  text-align: center;
+}
+
+.portofolioweb h2 {
+  text-align: center;
+}
+
+.portofolioweb img {
+  width: 500px;
+}
+
+.portofolioweb .pageone img {
+  width: 500px;
+}
+.portofolioweb .pagetwo img {
+  width: 500px;
+  height: 690px;
+}
+
+.navbar-toggler {
+  background-color: #272525;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 8px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  section img {
+    width: 150px;
+  }
+  .nav img {
+    max-width: 30px;
+    max-height: 30px;
+    object-fit: cover;
+  }
+
+  .btn-primary {
+    font-size: 8px;
+    height: 50px;
+    width: 50px;
+  }
+
+  .portofolioweb img {
+    width: 150px;
+  }
+
+  .portofolioweb .pageone img {
+    width: 200px;
+  }
+  .portofolioweb .pagetwo img {
+    width: 200px;
+    height: 275px;
+  }
+
+  .Securohead img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Securohead h1 {
+    font-size: 24px;
+  }
+  .Securohead h3 {
+    font-size: 12px;
+  }
+}
