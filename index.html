@@ -1,297 +1,472 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portofolio of muhamad irsyad</title>
-
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="customstyle/main.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300,400;0,500;0,700;1,400;1,500&display=swap"
-      rel="stylesheet"
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/img/apple-icon.png"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
+    />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>Portofolio Irsyad</title>
   </head>
-  <style></style>
-
-  <body>
+  <body class="text-gray-800 antialiased">
     <nav
-      class="navbar mb-5 navbar-expand-lg fixed-top navbar-light"
-      style="background-color: #141414"
-      ;
+      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 sticky bg-black		"
     >
-      <a class="navbar-brand" href="index.html">
-        <img width="45" src="/Images/Icon.PNG" alt=""
-      /></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+      <div
+        class="container px-4 mx-auto flex flex-wrap items-center justify-between"
       >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" style="color: #ffffff" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Projects.html">My Projects</a>
-          </li>
-        </ul>
+        <div
+          class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+        >
+          <a
+            class="lg:text-white lg:hover:text-gray-300 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+            href="#"
+            >Portofolio Irsyad</a
+          ><button
+            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+            type="button"
+            onclick="toggleNavbar('example-collapse-navbar')"
+          >
+            <em class="text-white fas fa-bars"></em>
+          </button>
+        </div>
+        <div
+          class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+          id="example-collapse-navbar"
+        >
+          <ul class="flex flex-col lg:flex-row list-none mr-auto">
+            <li class="flex items-center">
+              <a
+                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="https://github.com/IrsyadRafiSudirjo" target="_blank"
+                ><e
+                  class="lg:text-white lg:hover:text-gray-300  text-gray-500 fab fa-github text-lg leading-lg mr-2"
+                ></e>
+                <span class="lg:hidden inline-block ml-2">Github</span></a
+              >
+            </li>
+            <li class="flex items-center">
+              <a
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              target="_blank" href="https://www.linkedin.com/in/irsyadrafi"
+              ><em
+                class="lg:text-white lg:hover:text-gray-300 text-gray-500 fab fa-linkedin text-lg leading-lg mr-2"
+              ></em
+              ><span class="lg:hidden inline-block ml-2">Share</span></a>
+            </li>
+          </ul>
+          <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <li class="flex items-center">
+              <a
+                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="#"
+                >
+                <span class="inline-block ml-2">Home</span></a
+              >
+            </li>
+            <li class="flex items-center">
+              <a
+                class="lg:text-gray-400 lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="#"
+                >
+                <span class="inline-block ml-2">Project</span></a
+              >
+            </li>
+            <li class="flex items-center">
+              <a
+                class="lg:text-gray-400 lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="#"
+                >
+                <span class="inline-block ml-2">Profile</span></a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-
-    <br />
-    <br />
-    <section class="introduction">
-      <div class="container">
-        <div class="row">
-          <div class="col-2"></div>
-
-          <div class="col-8 mt-5">
-            <br />
-            <h1>Hello Everyone my name is <strong>Irsyad</strong></h1>
-          </div>
+    <main>
+      <!-- header -->
+      <div
+        class="relative pt-16 pb-32 flex content-center items-center justify-center"
+        style="min-height: 75vh;"
+      >
+        <div
+          class="absolute top-0 w-full h-full bg-center bg-cover"
+        >
+          <span
+            id="blackOverlay"
+            class="w-full h-full absolute opacity-75 bg-black"
+          ></span>
         </div>
-        <div class="row">
-          <div class="col-3"></div>
-          <div class="col-6">
-            <p class="intro mt-4 mb-4">
-              Welcome to my portofolio page. This Portofolio is a representation
-              of all that I have learned and created as Information System
-              student
-            </p>
-          </div>
-          <div class="col-3"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="about-me mt-3 mb-2">
-      <div class="container">
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-8">
-            <h1>About Me</h1>
-          </div>
-          <div class="col-2"></div>
-        </div>
-        <div class="row">
-          <div class="col-6 align-self-center">
-            <p>
-              " System Information student from Binus University who
-              <strong
-                >have a big passion at web designing,code, and creating business
-                idea.
-              </strong>
-              Also have experience in leading and working with teams. and right
-              now I am looking forward to collaborate with you!"
-            </p>
-          </div>
-          <div class="col-6 mb-5">
-            <img src="/Images/profiletransback.png" alt="" />
+        <div class="container relative mx-auto px-4">
+          <div class="items-center flex lg:flex-row  flex-col-reverse flex-wrap">
+            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto">
+              <div class="pr-12">
+                <h1 class="text-white font-semibold text-3xl">
+                  Hello I'm Irsyad Rafi
+                </h1>
+                <p class="mt-4 text-lg text-gray-300">
+                  I'm an active University student who love to code and making creative design. 
+                  From little I always fascinated by computer related and dreams to work in IT and creating my own applications.
+                  
+                </p>
+                <br>
+                <h1 class="text-white font-semibold text-2xl">
+                  I have a big passion for <br><span class="passion"></span>
+                </h1>
+              </div>
+            </div>
+            <div class="w-full lg:w-6/12 px-4 mb-10 ml-auto mr-auto text-center">
+              <div class="pr-12">
+                <img
+                alt="portofolio-irsyad"
+                src="/assets/img/Profilepicture.jpg"
+                class="w-7/12 m-auto rounded-t"
+              />
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-
-    <section class="experience mb-2">
-      <div class="container">
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-8"><h1>Experience</h1></div>
-          <div class="col-2"></div>
-        </div>
-        <div class="row mt-2">
-          <div class="col-2"></div>
-          <div class="col-8"><h2>2020</h2></div>
-          <div class="col-2"></div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-6 align-self-center">
-            <p>
-              Role :English Tutor (Present) <br />
-              Location : Binus university <br />Job Desc:Teaching English
+      <!-- experience -->
+      <section class="pb-20 bg-gray-300 -mt-24">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap">
+            <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+              
+            </div>
+            
+          </div>
+          <div class="flex flex-wrap items-center mt-32">
+            <div class="w-full md:w-7/12 px-4 mr-auto ml-auto">
+              <div
+                class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
+              >
+                <i class="fas fa-briefcase text-xl"></i>
+              </div>
+              <h2 class="text-3xl mb-2 font-semibold leading-normal">
+                My Experience
+              </h2>
+              <p
+                class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
+              >
+              <strong class="font-semibold">Role : Mobile Developer</strong> <br> (February 2021 - Present) <br />
+              Location : Bangkit <br />
+              Job Desc : I’m selected to be part of Bangkit program mobile development and to Learn the fundamental
+               concepts and core skills to launch my career as a professional Android developer. In bangkit 
+               I learned about how to create Android Apps using Jetpack, I've also created Capstone Project for Registering Vaccination.
+            
+              </p>
+              <p
+                class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700"
+              >
+              <strong class="font-semibold">Role :  Frontend Engineer</strong> <br> (January 2021 - March 2021) <br />
+              Location : Digitiket <br />
+              Job Desc : I've been working on creating PWA for Digitiket webservice. 
+              The tools that I've been using for this apps is Vue.js and laravel for the backend process.
+              </p>
+              <p
+                class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700"
+              >
+              <strong class="font-semibold">Role :  Frontend Web Developer</strong> <br> (December 2020 - January 2021) <br />
+              Location : Illa Hotel Vimala Hills <br />Job Desc : I get contracted by Illa Hotel until December for making their website using HTML, CSS , JavaScript and Bootstrap. I also learned Vue JS .Moreover, 
+              I also designed the website using Figma.
+              </p>
+              <p
+                class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700"
+              >
+              <Strong class="font-semibold">Role : English Tutor</Strong> <br>  (August 2020 - January 2021) <br />
+              Location : Binus university <br />Job Desc : Teaching English
               materials to binus university new freshman
-            </p>
-          </div>
-          <div class="col-6 align-self-center">
-            <p>
-              Role :Part-Time Online Sales (May 2020-July 2020)
+              </p>
+              <p
+                class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700"
+              >
+              <strong class="font-semibold">Role : Part-Time Online Sales</strong> <br>  (May 2020-July 2020)
               <br />
               Location : Villa By Illa Hotel at Vimala Hills <br />
-              Job Desc :Managing Illa hotel OTA specifically traveloka for
+              Job Desc : Managing Illa hotel OTA specifically traveloka for
               booking ,blocking , and changing price.
-            </p>
+              </p>
+            <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+            
+            </div>
           </div>
         </div>
-        <div class="row mt-2">
-          <div class="col-2"></div>
-          <div class="col-8"><h2>2017</h2></div>
-          <div class="col-2"></div>
-        </div>
-        <div class="row mt-5">
-          <div class="col-6 align-self-center">
-            <p>
-              Role :
-              <strong>Student Council,Education Committee</strong>  (2016-2017) 
-              <br />
-              Location : Highschool Al-Azhar 2 Pejaten <br />Job Desc:Part of
-              the Student council education commitee, responsible for
-              maintaining and improving student activity through education
-              competition
-            </p>
-          </div>
-          <div class="col-6 align-self-center">
-            <p>
-              Head of Student Welcoming School Event (MOS) (2017)
-              <br />
-              Location : Highschool Al-Azhar 2 Pejaten <br />
-              Job Desc :Manages and lead member of student council to organize
-              welcoming event school which goals to introduce new student with
-              Highschool from the activity to class.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="project-intro mt-3 mb-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-8">
-            <h1>My Projects</h1>
-          </div>
-          <div class="col-2"></div>
+      <!-- project -->
+      <section class="relative py-20">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px;"
+        >
         </div>
-        <div class="row mt-5">
-          <div class="col-6">
-            <!--carousel-->
-            <div
-              id="carouselExampleIndicators"
-              class="carousel slide"
-              data-ride="carousel"
-            >
-              <ol class="carousel-indicators">
-                <li
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="0"
-                  class="active"
-                ></li>
-                <li
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="1"
-                ></li>
-                <li
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="2"
-                ></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img
-                    class="d-block w-100"
-                    src="/Images/SecuroHead.png"
-                    alt="First slide"
-                  />
+        <div class="container mx-auto px-4">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-4 hidden lg:block md:block">
+              <img
+                alt="..."
+                class="max-w-full rounded-lg shadow-lg"
+                src="/assets/img/Jetpack_logo copy.png"
+              />
+            </div>
+            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+              <div class="md:pr-12">
+                <div
+                  class="text-green-200 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 mt-10 shadow-lg rounded-full bg-green-300"
+                >
+                  <i class="fab fa-android text-xl"></i>
                 </div>
-                <div class="carousel-item">
-                  <img
-                    class="d-block w-100"
-                    src="/Images/Bindo.png"
-                    alt="Second slide"
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    class="d-block w-100"
-                    src="/Images/portofolio.png"
-                    alt="Third slide"
-                  />
+                <h3 class="text-3xl font-semibold">Android Development</h3>
+                <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                  I've created various android apps during Bangkit. I create this android apps using jetpack practice. If you're interested you may click the button below
+                </p>
+                <div class="inline-flex mt-10">
+                  <button class="bg-green-300 hover:bg-green-400 text-grey-100 font-bold py-2 px-4 rounded-l">
+                    <a href="https://github.com/IrsyadRafiSudirjo" target="_blank">
+                      See Github
+                    </a>
+                  </button>
+                  <button class="bg-green-300 hover:bg-green-400 text-grey-100 font-bold py-2 px-4 rounded-r">
+                    See Explanation
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-6 align-self-center">
-            <p>
-              These are the previews of all projects that I have created. It
-              consist of Binus project and my personal project. If you're
-              interested to see it please click the button below.
-            </p>
-            <a href="Projects.html" class="btn btn-primary" role="button"
-              >See More</a
-            >
+        </div>
+      </section>
+      
+      <section class="relative py-20 lg:mt-10 ">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px;"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div class="container mx-auto px-4">
+          <div class="items-center flex lg:flex-row md:flex-row flex-col-reverse flex-wrap">
+            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+              <div class="md:pr-12">
+                <div
+                  class="text-blue-200 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 mt-10 shadow-lg rounded-full bg-blue-300"
+                >
+                  <i class="fas fa-globe text-xl"></i>
+                </div>
+                <h3 class="text-3xl font-semibold">Web Development</h3>
+                <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                  Here are My web development project.I've use various tools such as Html, css,  Vue.js and also Wordpress to creating and managing website
+                </p>
+                  <div class="inline-flex mt-10">
+                  <button class="bg-blue-300 hover:bg-blue-400 text-grey-100 font-bold py-2 px-4 rounded-l">
+                    <a href="https://github.com/IrsyadRafiSudirjo" target="_blank">
+                      See Github
+                    </a>
+                  </button>
+                  <button class="bg-blue-300 hover:bg-blue-400 text-grey-100 font-bold py-2 px-4 rounded-r">
+                    See Explanation
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-4 hidden lg:block md:block">
+              <img
+                alt="..."
+                class="max-w-full rounded-lg shadow-lg"
+                src="/assets/img/web_logo.png"
+              />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section class="work mt-5 mb-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-5 mt-3 align-self-center">
-            <h3>Interested working with me?</h3>
+      </section>
+      
+      <section class="relative py-20 lg:mt-10 ">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px;"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div class="container mx-auto px-4">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-4 hidden lg:block md:block">
+              <img
+                alt="..."
+                class="max-w-full rounded-lg shadow-lg"
+                src="/assets/img/logobinus.jpg"
+              />
+            </div>
+            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+              <div class="md:pr-12">
+                <div
+                  class="text-blue-200 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 mt-10 shadow-lg rounded-full bg-blue-500"
+                >
+                  <i class="fas fa-university text-xl"></i>
+                </div>
+                <h3 class="text-3xl font-semibold">University Project</h3>
+                <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                  Here are My collection of university projects. One of the projects is that I create an idea for startup with the name of Securohead. click the button below for more information about Securohead
+                </p>
+                  <div class="inline-flex mt-10">
+                  <button class="bg-blue-300 hover:bg-blue-500 text-grey-100 font-bold py-2 px-4 rounded-r">
+                    See Explanation
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-4 mt-3 align-self-center">
-            <div class="contact">
-              <p>
-                Email: muhamad.sudirjo@binus.ac.id <br />Phone:(+62)85280104032
+        </div>
+      </section>
+
+      
+
+      <section class="relative block bg-gray-900">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px;"
+        >
+          
+        </div>
+        <div class="container mx-auto px-4 pt-24 lg:pb-32">
+          <div class="flex flex-wrap text-center justify-center">
+            <div class="w-full lg:w-6/12 px-4">
+              <h2 class="text-4xl font-semibold text-white">My Certificate</h2>
+              <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
+                Below are some of my recent certificate. If you want to see more press the  button below
               </p>
             </div>
           </div>
-          <div class="col-3 mt-3 align-self-center">
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/irsyadrafi"
-              class="btn btn-primary"
-              role="button"
-              >Connect me on Linkedin</a
-            >
+          <div class="flex flex-wrap mt-12 justify-center">
+            <div class="w-full lg:w-3/12 px-4 text-center">
+              <img src="/assets/img/SertifikatMade.png" alt="">
+              <h6 class="text-l mt-5 font-semibold text-white">
+                Menjadi Android Developer Expert
+              </h6>
+              <p class="mt-2 mb-4 text-gray-500">
+                This is Certificate for completion of MADE in dicoding
+              </p>
+            </div>
+            <div class="w-full lg:w-3/12 px-4 text-center">
+              <img src="/assets/img/Sertifikatjetpack.png" alt="">
+              <h5 class="text-l mt-5 font-semibold text-white">
+                Belajar Android Jetpack Pro
+              </h5>
+              <p class="mt-2 mb-4 text-gray-500">
+                This is Certificate for completion of Android Jetpack in dicoding
+              </p>
+            </div>
+            <div class="w-full lg:w-3/12 px-4 text-center">
+              <img src="/assets/img/SertifikatDigitiket.png" alt="">
+              <h5 class="text-l mt-5 font-semibold text-white">Digitiket</h5>
+              <p class="mt-2 mb-4 text-gray-500">
+                This is My Certificate when I'm working for Digitiket in frontend engineer.
+              </p>
+            </div>
+            <div class="w-full lg:w-3/12 px-4 text-center">
+              <img src="/assets/img/SertifikatEnglish.png" alt="">
+              <h5 class="text-l mt-5 font-semibold text-white">English Tutor</h5>
+              <p class="mt-2 mb-4 text-gray-500">
+                This is My Certificate when I'm working for Binus English Tutor.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-8">
-            <h5>
-              <br />
-              <br />
-              © 2020 by Muhamad Irsyad Rafi Sudirjo <br />
-              <br />
+    </main>
+
+    <footer class="relative bg-gray-300 pt-8 pb-6">
+      <div
+        class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px;"
+      >
+        </svg>
+      </div>
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4">
+            <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+            <h5 class="text-lg mt-0 mb-2 text-gray-700">
+              Contact me in below
             </h5>
+            <div class="mt-6">
+              <p>Phone : (+62) 85280104032</p>
+              <p>
+                Email : <a href="mailto: irsyadicad1302@gmail.com">irsyadicad1302@gmail.com</a>
+              </p>
+            </div>
           </div>
-          <div class="col-2"></div>
+        </div>
+        <hr class="my-6 border-gray-400" />
+        <div
+          class="flex flex-wrap items-center md:justify-between justify-center"
+        >
+          <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+            <div class="text-sm text-gray-600 font-semibold py-1">
+              Copyright © 2021 by Muhamad Irsyad Rafi Sudirjo.
+            </div>
+          </div>
         </div>
       </div>
     </footer>
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.js"
-      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      type="text/javascript"
-      src="vendor/bootstrap/js/bootstrap.js"
-    ></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script>
-      AOS.init();
-    </script>
+      var typed = new Typed('.passion',{
+     strings: ['Web Development','Business Analyst','Mobile Development'],
+     typeSpeed:100,
+     backSpeed:100,
+     loop:true,
+   });
+ </script>
+ 
   </body>
+  <script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+  </script>
 </html>
