@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makanan</title>
+    <style>
+        h1   {
+            font-family: arial, sans-serif;
+            color: blue;
+            text-align: center;
+            font-size: 40px;
+            }
+       
+        .container {
+                margin-left: 50px;
+                margin-right: 50px;
+            }
+        img{
+            width: 375px;
+            height: 250px;
+        }
+        ul{
+            font-family: arial, sans-serif;
+        }
+        li{
+            font-family: arial, sans-serif;
+
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            font-size: 18px;
+            width: 100%;
+            background-color: rgb(104, 46, 46);
+            color: white;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            text-align: center;
+        }
+
+        p    {
+            font-family: arial, sans-serif;
+            color: red;
+            }
+        .moving{
+         
+            position: relative;
+            animation-name: example;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes example {
+            0%   {left:0px; top:0px;}
+            25%  {left:650px; top:0px;}
+            50%  {left:650px; top:0px;}
+            75%  {left:1300px; top:0px;}
+            100% {left:0px; top:0px;}
+        }
+        </style>
+</head>
+<body>
+
+<section>
+    <h1>WELCOME TO MY WEB</h1>
+
+        <hr>
+        <div class="moving">
+            <p>Makanan</p>
+        </div>
+        <hr>
+    <div class="container">
+        <a href="https://drive.google.com/thumbnail?id=1Tx2wBVJ5ktECIbIn-cdEVS7G_DL5FBNH" target="_blank">
+            <img src="https://drive.google.com/thumbnail?id=1Tx2wBVJ5ktECIbIn-cdEVS7G_DL5FBNH" alt="makanan-bakso">
+        </a>
+        <a href="https://drive.google.com/thumbnail?id=1ffVAd1qTSA_-3vfM0ZmKOyIvwV88t2dn" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=1ffVAd1qTSA_-3vfM0ZmKOyIvwV88t2dn" alt="makanan-gado-gado" style="margin-left: 100px;">
+        </a>
+
+        <a href="https://drive.google.com/thumbnail?id=1Ej6ESWqk1mdrRcLqKbUyIRlzsOGnPQPH" target="_blank">
+        <img src="https://drive.google.com/thumbnail?id=1Ej6ESWqk1mdrRcLqKbUyIRlzsOGnPQPH" alt="makanan-mie-ayam" style="margin-left: 50px;">
+        </a>
+
+        <H2 style="margin-top: 30px;">MENU : </H2>
+        <ul style="margin-top: 20px;">
+            <li>Bakso : 20.000</li>
+            <li>Gado Gado : 30.000</li>
+            <li>Mie Ayam : 20.000</li>
+        </ul>
+    </div>
+
+    
+</section>
+<table>
+    <tr>
+      <th rowspan="2" id="no" >No.</th>
+      <th rowspan="2" id="menu" >Menu</th>
+      <th colspan="2" id="harga">Harga</th>
+    </tr>
+    <tr>
+      <td>REGULER</td>
+      <td>JUMBO</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Mie Bakso</td>
+        <td>20.000</td>
+        <td>25.000</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Gado Gado</td>
+        <td>25.000</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Mie Ayam</td>
+        <td>25.000</td>
+        <td>30.000</td>
+    </tr>
+    <tr>
+        <th colspan="4" id="footer-table">--Selamat Menikmati Hidangan--</th>
+    </tr>
+  </table>
+  
+</body>
+</html>
